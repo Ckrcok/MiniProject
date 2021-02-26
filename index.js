@@ -30,6 +30,9 @@ function render() {
   if (result < 0) {
     H.style.color = "red";
   }
+  if (result >= 0) {
+    H.style.color = "black";
+  }
   H.innerHTML = result;
 }
 

@@ -4,3 +4,8 @@ body {
   align-items: center; /* centers vertically in row layout */
   flex-direction: column;
 }
+
+input #minus,
+#plus {
+  background-color: grey;
+}
