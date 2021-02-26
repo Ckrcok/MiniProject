@@ -27,6 +27,9 @@ function minus(click) {
 }
 
 function render() {
+  if (result < 0) {
+    H.style.color = "red";
+  }
   H.innerHTML = result;
 }
 
